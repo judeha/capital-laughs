@@ -1,0 +1,14 @@
+{
+  "name": "Jupyter Dev Container (Compose)",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "jupyter",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [8888],
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ]
+}
